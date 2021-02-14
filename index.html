@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Calculator</title>
@@ -11,7 +12,7 @@
 
 <body>
 	<main id="calc">
-		<output> 0 </output>
+		<output id="calcScreen"> 0 </output>
 
 		<section id="buttons">
 			<button>MC</button>
@@ -22,29 +23,30 @@
 			<button>←</button>
 			<button>CE</button>
 			<button>C</button>
-			<button>+/-</button>
+			<button data-id="+-">+/-</button>
 			<button>√</button>
-			<button>7</button>
-			<button>8</button>
-			<button>9</button>
+			<button data-id="7">7</button>
+			<button data-id="8">8</button>
+			<button data-id="9">9</button>
 			<button>/</button>
 			<button>%</button>
-			<button>4</button>
-			<button>5</button>
-			<button>6</button>
-			<button>*</button>
-			<button>1/x</button>
-			<button>1</button>
-			<button>2</button>
-			<button>3</button>
-			<button>-</button>
+			<button data-id="4">4</button>
+			<button data-id="5">5</button>
+			<button data-id="6">6</button>
+			<button data-id="*">*</button>
+			<button data-id="1/x">1/x</button>
+			<button data-id="1">1</button>
+			<button data-id="2">2</button>
+			<button data-id="3">3</button>
+			<button data-id="-">-</button>
 			<button data-id="=">=</button>
 			<button data-id="0">0</button>
-			<button>,</button>
+			<button data-id=".">.</button>
 			<button>+</button>
 		</section>
 
 	</main>
+	
 </body>
 
 </html>
