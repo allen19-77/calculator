@@ -33,6 +33,9 @@ buttons.onclick = function (e) {
 		}
 		oper = null
 		prevValue = null
+	} else if (btn == '←') {
+		if (oldInput) return 
+		calcScreen.innerText = calcScreen.innerText.slice(0,-1)
 	}
 
 }
